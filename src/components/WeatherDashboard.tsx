@@ -47,11 +47,11 @@ export default function WeatherDashboard() {
     } else {
       root.classList.remove('dark');
       if (code <= 3) {
-        root.style.setProperty('--background', '#38bdf8'); // Clear/Cloudy Day
+        root.style.setProperty('--background', '#0284c7'); // Darker Sky Blue
       } else if (code >= 51 && code <= 67) {
-        root.style.setProperty('--background', '#64748b'); // Rainy Day
+        root.style.setProperty('--background', '#334155'); // Darker Slate
       } else {
-        root.style.setProperty('--background', '#f0fdf4'); // Default Light
+        root.style.setProperty('--background', '#0f766e'); // Darker Teal (was default light)
       }
     }
   };

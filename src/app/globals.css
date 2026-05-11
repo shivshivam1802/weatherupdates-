@@ -16,10 +16,10 @@
 }
 
 :root {
-  --background: #f0fdf4;
-  --foreground: #022c22;
-  --glass-bg: var(--color-glass-light);
-  --glass-border: var(--color-glass-border-light);
+  --background: #0f172a;
+  --foreground: #f8fafc;
+  --glass-bg: var(--color-glass-dark);
+  --glass-border: var(--color-glass-border-dark);
 }
 
 .dark {
